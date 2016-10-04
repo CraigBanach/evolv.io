@@ -95,7 +95,7 @@ class Board {
             fileSaveCounts[i] = 0;
             fileSaveTimes[i] = -999;
         }
-        userControl = true;
+        userControl = false;
         timeStep = ts;
         populationHistory = new int[POPULATION_HISTORY_LENGTH];
         for(int i = 0; i < POPULATION_HISTORY_LENGTH; i++) {
